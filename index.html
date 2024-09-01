@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Document</title>
+</head>
+<body>
+    <div id="top">
+        <h1>Pokedex</h1>
+        <input id="text" type="text">
+        <button onclick="getPokemon()"><i class="fa fa-search"></i></button>
+    </div>
+    <div id="container">
+        <div id="img-container">
+            <img id="regular" alt="Pokemon img" style="display: none;">
+            <img id="shiny" alt="Pokemon shiny"  style="display: none;">
+        </div>
+        <div id="pokemon-data">
+            <h3 id="name"></h3>
+            <h3 id="abilty"></h3>
+            <h3 id="hidden"></h3>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
